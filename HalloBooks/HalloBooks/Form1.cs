@@ -12,9 +12,30 @@ namespace HalloBooks
 {
     public partial class Form1 : Form
     {
+
+        public event Action<int, string, DateTime> TripleClick;
+
+        int clickCount = 0;
+
         public Form1()
         {
             InitializeComponent();
+
+            this.MouseClick += (s, m) =>
+            {
+                clickCount++;
+                if (clickCount % 3 == 0)
+                {
+                    TripleClick(clickCount, "Toll", DateTime.Now.AddDays(-1));
+                }
+            };
+
+            TripleClick += Form1_TripleClick;
+        }
+
+        private void Form1_TripleClick(int arg1, string arg2, DateTime arg3)
+        {
+            MessageBox.Show("TripleClick");
         }
 
         private void button1_Click(object sender, EventArgs e)
