@@ -82,7 +82,7 @@ namespace HalloBooks
             var query = from b in volInfos
                         where b.pageCount > 10
                         orderby b.language, b.pageCount
-                        select b;
+                        select new { Title = b.title, Pages = b.pageCount };
 
             dataGridView1.DataSource = query.ToList();
         }
@@ -129,6 +129,8 @@ namespace HalloBooks
 
             MessageBox.Show(string.Join("\n", volInfos.Where(x => x.authors.Count() > 0 && x.description.Length > 1000)
                                                       .SelectMany(x => x.authors).OrderBy(x => x).Distinct()));
+
+
         }
     }
 
