@@ -3,7 +3,7 @@ using ppedv.Planner.Model;
 using System;
 using System.Linq;
 
-namespace ppedv.Planner.UI.DevConsole_
+namespace ppedv.Planner.UI.DevConsole
 {
     class Program
     {
