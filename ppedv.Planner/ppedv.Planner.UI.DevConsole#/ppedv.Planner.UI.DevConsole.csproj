@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>ppedv.Planner.UI.DevConsole</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ppedv.Planner.Logic\ppedv.Planner.Logic.csproj" />
+    <ProjectReference Include="..\ppedv.Planner.Model\ppedv.Planner.Model.csproj" />
+  </ItemGroup>
+
+</Project>
