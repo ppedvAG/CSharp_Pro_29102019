@@ -1,8 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="28.4.1" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ppedv.Planner.Data.EF\ppedv.Planner.Data.EF.csproj" />
