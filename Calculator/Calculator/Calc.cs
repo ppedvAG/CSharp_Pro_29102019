@@ -16,6 +16,7 @@ namespace Calculator
 
         public bool IsWeekend()
         {
+
             return DateTime.Now.DayOfWeek == DayOfWeek.Saturday ||
                    DateTime.Now.DayOfWeek == DayOfWeek.Sunday;
         }
