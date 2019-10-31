@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.Planner.Data.EF", "pp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Planner.Data.EF.Tests", "ppedv.Planner.Data.EF.Tests\ppedv.Planner.Data.EF.Tests.csproj", "{647FC78E-B885-4D61-85A8-ED4EBE3E7857}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Planner.Logic", "ppedv.Planner.Logic\ppedv.Planner.Logic.csproj", "{9D23F1D0-471E-40AD-84C1-FF70BD731B02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{647FC78E-B885-4D61-85A8-ED4EBE3E7857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{647FC78E-B885-4D61-85A8-ED4EBE3E7857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{647FC78E-B885-4D61-85A8-ED4EBE3E7857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D23F1D0-471E-40AD-84C1-FF70BD731B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D23F1D0-471E-40AD-84C1-FF70BD731B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D23F1D0-471E-40AD-84C1-FF70BD731B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D23F1D0-471E-40AD-84C1-FF70BD731B02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
